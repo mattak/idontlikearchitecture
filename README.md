@@ -10,6 +10,11 @@
 
 ## Project
 
+`baseline`
+
+- libraries
+  - nothing
+
 `cafu_v3_sample`
 
 - libraries
@@ -20,9 +25,12 @@
 
 ## Stats
 
+
 files
 
 ```
+$ find baseline/Assets/Scripts -type f -name '*.cs' | wc -l
+       1
 $ find cafu_v3_sample/Assets/Scripts -type f -name '*.cs' | wc -l
       15
 ```
@@ -30,6 +38,8 @@ $ find cafu_v3_sample/Assets/Scripts -type f -name '*.cs' | wc -l
 lines
 
 ```
+$ find baseline/Assets/Scripts -type f -name '*.cs' | xargs -n1 cat | wc -l
+      28
 $ find cafu_v3_sample/Assets/Scripts -type f -name '*.cs' | xargs -n1 cat | wc -l
      241
 ```
