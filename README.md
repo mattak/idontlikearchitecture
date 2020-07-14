@@ -1,4 +1,4 @@
-# clean architecture style comparation
+# application architecture comparation
 
 
 ## Spec
